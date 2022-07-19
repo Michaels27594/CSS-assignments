@@ -1,0 +1,23 @@
+.row {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.col {
+  background-color: #9cb4cc;
+  margin: 10px;
+  flex: 1 0 auto;
+}
+
+.col-2 {
+  background-color: #9cb4cc;
+  margin: 10px;
+  flex: 2 0 auto;
+}
+
+.col-3 {
+  background-color: #9cb4cc;
+  margin: 10px;
+  flex: 3 0 auto;
+}
