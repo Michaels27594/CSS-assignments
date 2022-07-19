@@ -1,0 +1,34 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.nav {
+  background-color: #303030;
+  width: 99%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+h1 {
+  padding-left: 15px;
+  color: #fff;
+  display: flex;
+  justify-content: left;
+}
+.active {
+  color: #fff;
+}
+ul {
+  list-style: none;
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+a {
+  color: gray;
+}
+.btn {
+  background-color: #00c5bc;
+  color: #fff;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.73);
+}
