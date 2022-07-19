@@ -1,0 +1,38 @@
+body {
+  background-color: azure;
+  align-items: center;
+  padding: 50px;
+}
+.box_container {
+  padding: 0px 50px 0px 50px;
+  position: relative;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+img {
+  width: 200px;
+  padding: 20px;
+}
+
+.box_1 {
+  background-color: aliceblue;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box_2 {
+  background-color: gray;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box_3 {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
