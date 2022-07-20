@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+body {
+  min-width: 1280px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+#container {
+  margin-left: 50px;
+  width: 675px;
+  border: 3px solid #cfd2cf;
+  border-radius: 10px;
+  position: relative;
+  margin: 10px;
+  height: 325px;
+}
+.top {
+  background-color: #4cacbc;
+  height: 100px;
+}
+#container .profile {
+  position: absolute;
+  top: 50px;
+  left: 25px;
+  z-index: 1;
+  width: 80px;
+  border: 4px solid #cfd2cf;
+  border-radius: 50%;
+}
+img {
+  width: 13px;
+}
+
+h3 {
+  position: absolute;
+  bottom: 93px;
+  left: 45px;
+}
+
+.bottom {
+  padding-top: 50px;
+  padding-left: 25px;
+}
+.location {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.edit {
+  padding-top: 20px;
+}
